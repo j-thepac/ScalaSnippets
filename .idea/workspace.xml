@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd27cc7a-3f91-433d-bbcf-7593281abe54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_beust_jcommander_1_48_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_mockito_mockito_all_1_8_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalamock_scalamock_2_12_4_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_testng_testng_6_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaProject1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
@@ -25,10 +38,23 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Removing2ndElements.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Removing2ndElements.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/HelloWorld$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Kata$$anonfun$removeEveryOther$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Kata$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Kata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Removing2ndElements$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Removing2ndElements.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +156,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3170808833348" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3563452143" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1244562550" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -159,26 +179,26 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="416" y="151" width="526" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.744@0.0.1366.744" timestamp="1585422426738" />
-    <state width="1298" height="162" key="GridCell.Tab.0.bottom" timestamp="1585398100957">
+    <state width="1298" height="162" key="GridCell.Tab.0.bottom" timestamp="1585422960878">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state width="1298" height="162" key="GridCell.Tab.0.bottom/0.0.1366.744/1366.0.1920.1080@0.0.1366.744" timestamp="1585398100957" />
-    <state width="1298" height="162" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585386819869" />
-    <state width="1298" height="162" key="GridCell.Tab.0.center" timestamp="1585398100957">
+    <state width="1298" height="162" key="GridCell.Tab.0.bottom/0.0.1366.744@0.0.1366.744" timestamp="1585422960878" />
+    <state width="1298" height="162" key="GridCell.Tab.0.center" timestamp="1585422960875">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state width="1298" height="162" key="GridCell.Tab.0.center/0.0.1366.744/1366.0.1920.1080@0.0.1366.744" timestamp="1585398100957" />
-    <state width="1298" height="162" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585386819868" />
-    <state width="1298" height="162" key="GridCell.Tab.0.left" timestamp="1585398100957">
+    <state width="1298" height="162" key="GridCell.Tab.0.center/0.0.1366.744@0.0.1366.744" timestamp="1585422960875" />
+    <state width="1298" height="162" key="GridCell.Tab.0.left" timestamp="1585422960872">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state width="1298" height="162" key="GridCell.Tab.0.left/0.0.1366.744/1366.0.1920.1080@0.0.1366.744" timestamp="1585398100957" />
-    <state width="1298" height="162" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585386819868" />
-    <state width="1298" height="162" key="GridCell.Tab.0.right" timestamp="1585398100957">
+    <state width="1298" height="162" key="GridCell.Tab.0.left/0.0.1366.744@0.0.1366.744" timestamp="1585422960872" />
+    <state width="1298" height="162" key="GridCell.Tab.0.right" timestamp="1585422960876">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state width="1298" height="162" key="GridCell.Tab.0.right/0.0.1366.744/1366.0.1920.1080@0.0.1366.744" timestamp="1585398100957" />
-    <state width="1298" height="162" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585386819869" />
+    <state width="1298" height="162" key="GridCell.Tab.0.right/0.0.1366.744@0.0.1366.744" timestamp="1585422960876" />
     <state x="338" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585421943844">
       <screen x="0" y="0" width="1366" height="744" />
     </state>

@@ -1,5 +1,13 @@
 import scala.collection.mutable._
 
+
+/**
+ *
+Take an array and remove every second element out of that array. Always keep the first element and start removing with the next element.
+
+Example:
+
+myArr = List("Keep", "Remove", "Keep", "Remove", "Keep", ...) */
 object Removing2ndElements {
   def main(args: Array[String]): Unit = {
     println(Kata.removeEveryOther(List("abc", "sdfsdf","f",1,2)))
@@ -14,3 +22,4 @@ object Kata {
 
 
 
+//OP = abc ,f, 2
