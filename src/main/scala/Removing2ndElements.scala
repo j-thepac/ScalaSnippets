@@ -18,7 +18,8 @@ object Removing2ndElements {
 object ExpressionsMatterTest {
   def removeEveryOther[T](list: List[T]): List[T] = {
     list.indices.collect{case i if i%2==0 => list(i)}.toList
-  }}
+  }
+}
 
 
 
