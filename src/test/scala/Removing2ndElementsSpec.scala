@@ -13,7 +13,7 @@ class Removing2ndElementsSpec extends FlatSpec with Matchers {
   tests.foreach {
     case (input, expected) =>
       s"removeEveryOther($input)" should s"return $expected" in {
-        Kata.removeEveryOther(input) should be (expected)
+        ExpressionsMatterTest.removeEveryOther(input) should be (expected)
       }
   }
 }

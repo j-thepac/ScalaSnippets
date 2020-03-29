@@ -1,6 +1,8 @@
+import java.time.Instant
+
 object HelloWorld {
   def main(args: Array[String]): Unit = {
-    println(args(0))
+    println(Instant.now())
   }
 
 }
