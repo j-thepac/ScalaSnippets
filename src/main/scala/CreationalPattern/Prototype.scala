@@ -6,11 +6,12 @@ package CreationalPattern
 
 object Prototype {
   def main(args: Array[String]): Unit = {
-    val x = A(1)
-    val y = x.copy()
-    val z = y.copy(2)
+    val obj1 = ProA(1)
+    val obj2= obj1.copy()
+    obj2.n=2
+    println(obj1.n,obj2.n)
 
   }
 }
 
-sealed case class A(n: Int)
+sealed case class ProA(var n: Int)

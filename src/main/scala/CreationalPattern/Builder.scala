@@ -2,13 +2,13 @@ package CreationalPattern
 
 object Builder {
   def main(args: Array[String]): Unit = {
-    val a:A=new A(1)
-    val b:A=new A("a")
-    val c:A=new A(List("1","2","3"))
+    val a:BuildA=new BuildA(1)
+    val b:BuildA=new BuildA("a")
+    val c:BuildA=new BuildA(List("1","2","3"))
   }
 }
 
-sealed class A(val p:Any){
+sealed class BuildA(val p:Any){
 println(p)
 }
 
