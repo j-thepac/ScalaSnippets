@@ -13,15 +13,20 @@ object DependencyInversion {
 }
 
 
-
+//CORRECT
 class Employee{}
 class QA extends Employee
 class Dev extends Employee
-
 class Manager{
   var emp:ArrayBuffer[Employee]=new ArrayBuffer[Employee]()
-
   def add_emp(emp:Employee): Unit ={
     this.emp.append(emp)
   }
+}
+
+//WRONG
+class Manager2{
+  var qa:ArrayBuffer[QA]=new ArrayBuffer[QA]()
+  var dev:ArrayBuffer[Dev]=new ArrayBuffer[Dev]()
+  def add_qa(qa:QA)=this.qa.append(qa)
 }

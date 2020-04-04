@@ -1,5 +1,3 @@
-
-//SOLID
 package SOLID
 
 object OpenClosed {
@@ -8,13 +6,10 @@ object OpenClosed {
     book.getPrice
   }
 }
-
-
 abstract class Book{
   val price:Int=1000
-   def getPrice{}
+   def getPrice
 }
-
 class DiwaliBook extends Book{
   override def getPrice = println( this.price-100)
 }

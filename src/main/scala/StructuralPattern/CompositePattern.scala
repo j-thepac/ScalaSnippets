@@ -8,8 +8,6 @@ object CompositePattern {
     kennel.bark
   }
 }
-
-
 abstract class Dog{ def bark}
 class Dogs extends Dog{
   val dogs:ArrayBuffer[Dog]=new ArrayBuffer[Dog]()
@@ -19,7 +17,6 @@ class Dogs extends Dog{
       dog.bark
   }
 }
-
 class Pommerian extends Dog{
   override def bark: Unit = println("tommy : Wof Wof ...")
 }

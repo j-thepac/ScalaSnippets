@@ -10,14 +10,11 @@ object ObserverPattern {
     observer.send_notification("10% discount")
   }
 }
-
-
 class NewUser{
   private var name:String=_
-  def set_name(name:String){this.name=name}
+  def set_name(name:String)=this.name=name
   def notification(message:String){println(this.name+" received notification "+message)}
 }
-
 class Observer{
   val newusers:ArrayBuffer[NewUser]=new ArrayBuffer[NewUser]()
   def add_user(user:NewUser)=newusers.append(user)

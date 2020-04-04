@@ -3,20 +3,18 @@ import scala.collection.mutable._
 object DecoratorPattern {
   def main(args: Array[String]): Unit = {
     val coffee:Coffee=new Coffee
-    val cream:Cream=new Cream
-    val finalCoffee:MadeCoffee=cream.add_cream(coffee.make_coffee)
+    val addons:Addons=new Addons
+    val finalCoffee:MadeCoffee=addons.add_cream(coffee.basic_coffee)
     println(finalCoffee.cost,finalCoffee.content.toString())
   }
 }
 
 case class MadeCoffee(cost:Int, content:ArrayBuffer[String])
 class Coffee{
-  def make_coffee:MadeCoffee={
-    return MadeCoffee(1,ArrayBuffer("sugar","milk","coffee"))
-  }
+  def basic_coffee:MadeCoffee=return MadeCoffee(1,ArrayBuffer("sugar","milk","coffee"))
 }
 
-class Cream {
+class Addons {
   def add_cream(madeCoffee:MadeCoffee):MadeCoffee={
     val temp_Cost:Int=madeCoffee.cost+1
     madeCoffee.content+=("Cream")

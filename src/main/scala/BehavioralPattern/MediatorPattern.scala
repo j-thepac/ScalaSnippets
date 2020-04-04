@@ -8,8 +8,6 @@ object MediatorPattern {
     user.send_message("Hi")
   }
 }
-
-
 class User(private var name:String){
 var chat:Chat=_
   def join(chat:Chat): Unit ={

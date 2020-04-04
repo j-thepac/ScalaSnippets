@@ -1,5 +1,5 @@
 /**
- * Prototype works for case class
+ * Prototype works only for case class !!!s
  */
 
 package CreationalPattern

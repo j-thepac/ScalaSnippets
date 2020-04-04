@@ -8,8 +8,6 @@ object StrategyPattern {
     println(books.price)
   }
 }
-
-
 class Books{
   var price:Int=100
   def get_price(coupon:String=null): Unit = if(coupon.contentEquals("Discount10"))this.Discount10

@@ -9,8 +9,6 @@ package BehavioralPattern
      println(account.balance)
    }
  }
-
-
 class Memento(val balance:Int)
 class Account{
    var balance:Int=1000

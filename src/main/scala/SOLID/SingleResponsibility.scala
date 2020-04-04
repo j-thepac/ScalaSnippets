@@ -1,5 +1,4 @@
-package SOLID
-
+package SOLIDs
 object SingleResponsibility {
   def main(args: Array[String]): Unit = {
     val person:Person=new Person()
@@ -7,12 +6,7 @@ object SingleResponsibility {
     file.SaveName(person)
   }
 }
-
-
-class Person{
-  def name:String=return "Sam"
-}
-
+class Person{def name:String=return "Sam"}
 class File{
   def SaveName(person:Person)=println("Saving .. "+person.name)
 }

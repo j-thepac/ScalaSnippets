@@ -5,10 +5,9 @@ object FacadePattern {
     new Facade()
   }
 }
-
-
 class CPU{println("CPU started ... Fan Running")}
 class Memory{println("Memory alloted ....")}
-class Facade{new CPU()
+class Facade{
+  new CPU()
   new Memory()
 }
