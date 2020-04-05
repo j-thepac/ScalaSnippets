@@ -1,8 +1,11 @@
 import java.time.Instant
+//import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
+
 
 object HelloWorld {
   def main(args: Array[String]): Unit = {
-    println(Instant.now())
+//    import spark.implicits._     // toDF
+//    val df1: DataFrame =Seq("val").toDF("col")
 
 
   }
