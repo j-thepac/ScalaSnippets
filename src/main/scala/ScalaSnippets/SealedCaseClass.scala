@@ -1,3 +1,5 @@
+package ScalaSnippets
+
 object SealedCaseClass {
   def main(args: Array[String]): Unit = {
     val a:SCC=new SCC(10)

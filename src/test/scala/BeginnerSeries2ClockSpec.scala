@@ -1,3 +1,4 @@
+import ScalaSnippets.BeginnerSeries2ClockTest
 import org.scalatest.FunSuite
 
 

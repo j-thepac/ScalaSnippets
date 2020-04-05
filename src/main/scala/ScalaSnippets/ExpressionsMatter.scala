@@ -1,3 +1,5 @@
+package ScalaSnippets
+
 /**
  * With the numbers are 1, 2 and 3 , here are some ways of placing signs and brackets:
  *

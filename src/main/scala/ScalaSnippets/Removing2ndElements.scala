@@ -1,4 +1,4 @@
-import scala.collection.mutable._
+package ScalaSnippets
 
 
 /**

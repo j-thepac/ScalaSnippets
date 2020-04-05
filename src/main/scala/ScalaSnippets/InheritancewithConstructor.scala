@@ -1,3 +1,5 @@
+package ScalaSnippets
+
 object InheritancewithConstructor {
   def main(args: Array[String]): Unit = {
     val i:InheritA=new InheritB("4",5)

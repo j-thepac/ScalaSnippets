@@ -1,3 +1,4 @@
+import ScalaSnippets.ExpressionsMatterTest2
 import org.scalatest.FunSuite
 
 

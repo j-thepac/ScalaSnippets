@@ -1,3 +1,5 @@
+import ScalaSnippets.ExpressionsMatterTest
+
 import scala.collection.mutable.Map
 import org.scalatest._
 
