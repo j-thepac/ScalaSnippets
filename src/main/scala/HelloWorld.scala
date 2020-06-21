@@ -12,6 +12,9 @@ object HelloWorld {
     for (i <- 0 until 100)
         Calendar.getInstance().getTime()
 
+    val a =5
+
+
   }
 }
 
