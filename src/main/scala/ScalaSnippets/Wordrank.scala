@@ -25,7 +25,8 @@ object WordRank extends App{
     def fn(v:String):String= {
         val res1 = v.split(" ").map(i => i.toList.map(i => m(i)).sum)
         val maxres=res1.max
-        return v(v.indexOf(maxres))
+         v(v.indexOf(maxres))
+        return "basd"
     }
 
 }
