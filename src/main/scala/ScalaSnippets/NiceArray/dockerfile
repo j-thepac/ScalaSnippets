@@ -1,0 +1,9 @@
+
+# docker build -t nicearray:v1 .
+# docker run -it nicearray:v1
+# kubectl run deployment -it --image=nicearray:v1 scalatest bash 
+
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps
+CMD scala Nicearray.scala

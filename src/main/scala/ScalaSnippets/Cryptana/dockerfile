@@ -1,0 +1,6 @@
+
+#docker build -t cryptana:v1 .
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps
+CMD scala Crytana.scala
