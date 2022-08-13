@@ -16,11 +16,13 @@ chain(50, [add10, mul30])
 object Chain {
 
     def main(args:Array[String]):Unit={
-        def add30:Int=>Int= _+30
-        def mul30:Int=>int= _*30
-        var d=30
-        Array(add30,mul30).foreach(f => d=f(d) )
-        println(d)
+        def add30:Int=>Int=(i:Int)=> i+30
+        def mul30:Int=>Int= (i:Int) => i*30
+        var d:Int=30
+
+        val res=(add30 compose mul30)(30)
+//        Array(add30,mul30).foreach(f => {d=f(d)} )
+        println(res)
 
 
     }
