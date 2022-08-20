@@ -1,0 +1,8 @@
+
+# docker build -t acronym:v1 .
+# kubectl create deployment acronym --image acronym:v1
+# kubectl delete deployment acronym
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps/
+CMD scala Acronym.scala
