@@ -1,0 +1,14 @@
+
+#	minikube start
+#	alias kubectl="minikube kubectl --"
+##	kubectl create namespaces test                                                                              
+#	kubectl config set-context --current --namespace=test
+#	eval $(minikube docker-env)
+
+# docker build -t highlowpow:v1 .
+# kubectl create deployment highlowpow--image=highlowpow:v1
+
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps
+CMD scala HighLowPow.scala
