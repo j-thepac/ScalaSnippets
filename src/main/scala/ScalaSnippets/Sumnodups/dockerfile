@@ -1,0 +1,8 @@
+# docker build -t sumnodups:v1 .
+# docker run -it sumnodups:v1
+# kubectl run deployment -it --image=sumnodups:v1 scalatest bash 
+
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps
+CMD scala Sumnodups.scala

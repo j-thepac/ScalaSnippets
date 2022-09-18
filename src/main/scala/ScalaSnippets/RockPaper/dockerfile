@@ -1,0 +1,8 @@
+
+# docker build -t rockpaper:v1 .
+# docker run -it rockpaper:v1
+# kubectl run rockpaper --image=rockpaper:v1
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps
+CMD scala Rockpaper.scala

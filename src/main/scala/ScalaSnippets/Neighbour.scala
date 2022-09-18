@@ -20,8 +20,8 @@ object Neighbour {
 
 
     def main(args:Array[String]):Unit={
-        assert(fx("+f+d+c+#+f+")==True)
-        assert(fx("+d+=3=+s+")==False)
+        assert(fx("+f+d+c+#+f+")==true)
+        assert(fx("+d+=3=+s+")==false)
 
     }
 
