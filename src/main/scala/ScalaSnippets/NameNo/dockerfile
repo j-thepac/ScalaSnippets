@@ -1,0 +1,7 @@
+# docker build -t nameno:v1 .
+# kubectl create deployment nameno --image nameno:v1
+# kubectl delete deployment nameno
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps/
+CMD scala NameNo.scala
