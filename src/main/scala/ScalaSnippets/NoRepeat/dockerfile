@@ -1,6 +1,8 @@
 
 # docker build -t norepeat:v1 .
 # docker run -it norepeat:v1
+
+# kubectl create deployment norepeat --image norepeat:v1
 FROM broadinstitute/scala-baseimage
 COPY $PWD /home/apps/
 WORKDIR /home/apps/
