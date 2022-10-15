@@ -1,0 +1,6 @@
+#docker build -t coffee:v1 .
+# kubectl create deployment coffee --image=coffee:v1
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps
+CMD scala Coffee.scala
