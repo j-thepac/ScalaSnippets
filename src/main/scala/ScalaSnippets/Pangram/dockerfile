@@ -1,0 +1,8 @@
+# docker build -t pangram:v1 .
+# kubectl create deployment pangram --image pangram:v1
+
+# kubectl create deployment norepeat --image norepeat:v1
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps/
+CMD scala Pangram.scala
