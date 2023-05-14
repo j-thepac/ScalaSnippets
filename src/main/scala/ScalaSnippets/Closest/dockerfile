@@ -1,0 +1,9 @@
+
+# docker run -it -v $PWD:/home/apps -w /home/apps -p 5000:5000 broadinstitute/scala-baseimage scala closest.scala
+# docker build -t acronym:v1 .
+# kubectl create deployment acronym --image acronym:v1
+# kubectl delete deployment acronym
+FROM broadinstitute/scala-baseimage
+COPY $PWD /home/apps/
+WORKDIR /home/apps/
+CMD scala closest.scala
